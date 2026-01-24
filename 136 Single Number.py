@@ -1,6 +1,6 @@
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
-        x = 0
-        for n in nums:
-            x ^= n
-        return x
+        res = 0
+        for num in nums:
+            res ^= n
+        return res
